@@ -1,0 +1,30 @@
+PATH:
+  DATASET_DIR: 'dataset/'
+  PKL_PATH: 'dataset/database.pkl'
+  ATTENDANCE_PATH: 'dataset/attendance.pkl'
+  LOGS_DIR: 'logs/'
+  BACKUP_DIR: 'backup/'
+  EXPORT_DIR: 'exports/'
+
+INFO:
+  PICTURE_PROMPT: 'Upload images to recognize faces and record attendance.'
+  WEBCAM_PROMPT: 'This attendance system recognizes faces via webcam. Attendance is recorded automatically when a face is recognized.'
+
+UI:
+  THEME_COLOR: '#4361ee'
+  SECONDARY_COLOR: '#1e1e1e'
+  TITLE: 'Smart Attendance System'
+  LOGO: 'assets/logo.png'
+  DEFAULT_THEME: 'dark'
+
+ATTENDANCE:
+  START_HOUR: 9
+  START_MINUTE: 0
+  LATE_THRESHOLD_MINUTES: 15
+  ABSENT_THRESHOLD_MINUTES: 60
+  
+RECOGNITION:
+  DEFAULT_TOLERANCE: 0.5
+  MULTI_FACE: true
+  SHOW_CONFIDENCE: true
+  MIN_FACE_SIZE: 50
